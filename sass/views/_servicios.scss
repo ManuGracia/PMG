@@ -1,0 +1,52 @@
+/*Servicios*/
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-evenly;
+     justify-content: center;
+     align-items: center;
+     background-color: #FD8986;
+     
+    }
+
+.box {
+background-color: rgb(236, 201, 83);
+flex-basis: 300px;
+min-height: 450px;
+color: black;
+font-size: 20px;
+border: 3px solid rgba(0, 0, 0, 0.2);
+margin: 20px;
+box-shadow: 0 0 5px 5px black;
+margin-top: 200px;
+
+}
+
+.box:hover{
+  background-color:  #2b9dc4  ;
+  transition: background-color 1s;
+  transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    display: flex; 
+     justify-content: center;
+     align-items: center;
+     color: white;
+    }
+.box__texto 
+{
+    display: flex; 
+     justify-content: center;
+     align-items: center;
+     vertical-align: middle;
+     text-align: center;
+     color: black;
+     margin-top: 10px;
+    }
+
+img {width: 100%;}
+
