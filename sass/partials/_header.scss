@@ -23,10 +23,20 @@ header{
 }
 
 .logo img{
-    width: 150px;
+    width: 300px;
 
 }
 
+.logootraspaginas{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logootraspaginas img{
+    width: 300px;
+
+}
 .menu{
     display: flex;
     align-items: center;

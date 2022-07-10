@@ -1,0 +1,63 @@
+/*CONTACTO*/
+
+
+
+.conteiner__formulario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: space-evenly;
+     justify-content: center;
+     align-items: center;
+     background-color: #536cc3;
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+
+form
+{
+width: 50%;
+margin:auto;
+background-color: rgba(0,0,0,0.4);
+background-size: cover;
+padding: 10px 20px;
+box-sizing: border-box;
+margin-top: 90px;
+border-radius: 7px;
+  }
+  h3{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Caveat', cursive;
+  }
+
+input, textarea
+{width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17px;
+border: none;
+}
+
+textarea{
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+}
+
+#boton{
+    background: #31384a;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover{ cursor: pointer;}
+
+@media(max-width: 480px){
+    form{
+        width: 100%;}
+    }
