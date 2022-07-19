@@ -9,6 +9,7 @@ function mostrar_menu(){
 
     nav.style.right = "0px";
     background_menu.style.display = "block";
+    document.querySelector("nav").classList.toggle("active");
 }
 
 function ocultar_menu(){
